@@ -43,6 +43,5 @@ public class C01_ilkTest {
         driver.findElement(By.xpath("(//*[@class='s-image'])[1]")).click();
         //6- Sayfadaki tum basliklari yazdiralim
         System.out.println(driver.findElement(By.xpath("//h1")).getText());
-
     }
 }
