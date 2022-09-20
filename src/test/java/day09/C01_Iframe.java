@@ -12,7 +12,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class C01 {
+public class C01_Iframe {
     /*
     ● Bir class olusturun: IframeTest
     ● https://the-internet.herokuapp.com/iframe adresine gidin.
