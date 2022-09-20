@@ -36,7 +36,7 @@ public class C03_BasicAuthentication {
     }
 
     @Test
-    public void test1(){
+    public void test1() throws InterruptedException {
      driver.get("https://admin:admin@the-internet.herokuapp.com/basic_auth");
      //https://the-internet.herokuapp.com/basic_auth sayfasina gidin
      //asagidaki yontem ve test datalarini kullanarak authentication’i yapin
