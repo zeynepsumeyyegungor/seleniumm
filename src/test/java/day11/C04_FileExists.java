@@ -11,25 +11,25 @@ public class C04_FileExists {
     @Test
     public void test1() {
 
-        System.out.println(System.getProperty("user.dir"));//C:\SeleniumBatch81\com.Batch81JUnit
+        System.out.println(System.getProperty("user.dir"));//C:\Users\zeyneps�meyye\IdeaProjects\com.BatchJUnit
         //Şuanki içinde bulunduğum yolu gösterir
-        System.out.println(System.getProperty("user.home"));//C:\Users\Lenovo
+        System.out.println(System.getProperty("user.home"));//C:\Users\zeyneps�meyye
         //Geçerli kullanıcının ana dizinini verir
-/*
+
         String farkliBolum = System.getProperty("user.home");
-        //"C:\Users\Lenovo\OneDrive\Masaüstü\text.txt" --> masa üstündeki dosyanın yolu
-        String ortakBolum = "\\OneDrive\\Masaüstü\\tex.txt";
+       // "C:\Users\zeynepsümeyye\OneDrive\Masaüstü\text.txt" --> masa üstündeki dosyanın yolu
+        // String ortakBolum = "\\OneDrive\\Masaüstü\\text.txt";
 
-        String masaUstuDosyaYolu = farkliBolum+ortakBolum; // Masaüstündeki dosya yolunu gösterir
+        //String masaUstuDosyaYolu = farkliBolum+ortakBolum; // Masaüstündeki dosya yolunu gösterir
 
-        System.out.println(masaUstuDosyaYolu); //C:\Users\Lenovo\OneDrive\Masaüstü\text.txt
-        System.out.println(Files.exists(Paths.get(dosyaYolu)));
-        Assert.assertTrue(Files.exists(Paths.get(dosyaYolu)));
-
- */
-        String dosyaYolu = "C:\\Users\\Lenovo\\OneDrive\\Masaüstü\\text.txt";
+        //System.out.println(masaUstuDosyaYolu); //C:\Users\Lenovo\OneDrive\Masaüstü\text.txt
         //System.out.println(Files.exists(Paths.get(dosyaYolu)));
-        Assert.assertTrue(Files.exists(Paths.get(dosyaYolu)));
+        //Assert.assertTrue(Files.exists(Paths.get(dosyaYolu)));
+
+
+      //  String dosyaYolu = "C:\\Users\\Lenovo\\OneDrive\\Masaüstü\\text.txt";
+        //System.out.println(Files.exists(Paths.get(dosyaYolu)));
+     //   Assert.assertTrue(Files.exists(Paths.get(dosyaYolu)));
         /*
         Bir web sitesinden indirdiğimiz yada windows içinde oluşturduğumuz dosyanın indiğini yada orda olduğunu
         test edebilmem için o dosyanın üzerine shift tuşuna basılı olarak sağ klik yapıp dosyanın yolunu kopyalayıp
