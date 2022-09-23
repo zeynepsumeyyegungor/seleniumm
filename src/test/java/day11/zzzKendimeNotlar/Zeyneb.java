@@ -1,4 +1,4 @@
-package zzzKendimeNotlar;
+package day11.zzzKendimeNotlar;
 
 public class Zeyneb {
     //Eclipse, IntelliJ ==>> IDE(integrated development environment)

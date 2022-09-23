@@ -54,5 +54,6 @@ public class C03_SenkranizasyonWait extends TestBaseBeforeAfter {
                 visibilityOfElementLocated(By.xpath("//*[@id='message']")));
         Assert.assertTrue(itsBackWE.isDisplayed());
 
+
     }
 }
