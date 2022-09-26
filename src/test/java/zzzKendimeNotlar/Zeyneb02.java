@@ -1,4 +1,4 @@
-package day11.zzzKendimeNotlar;
+package zzzKendimeNotlar;
 
 public class Zeyneb02 {
     // Selenium'da Senkronizasyonu nasıl sağlarız?
