@@ -17,19 +17,21 @@ public class C04_FileExists {
         //Geçerli kullanıcının ana dizinini verir
 
         String farkliBolum = System.getProperty("user.home");
-       // "C:\Users\zeynepsümeyye\OneDrive\Masaüstü\text.txt" --> masa üstündeki dosyanın yolu
-        // String ortakBolum = "\\OneDrive\\Masaüstü\\text.txt";
+       // "C:\Users\zeynepsümeyye\OneDrive\Masaüstü\test.txt" --> masa üstündeki dosyanın yolu
+        String ortakBolum = "\\OneDrive\\Masaüstü\\test.txt";
 
-        //String masaUstuDosyaYolu = farkliBolum+ortakBolum; // Masaüstündeki dosya yolunu gösterir
+        String masaUstuDosyaYolu = farkliBolum+ortakBolum; // --> Masaüstündeki dosya yolunu gösterir
 
-        //System.out.println(masaUstuDosyaYolu); //C:\Users\Lenovo\OneDrive\Masaüstü\text.txt
+        //System.out.println(masaUstuDosyaYolu); //C:\Users\zeyneps�meyye
         //System.out.println(Files.exists(Paths.get(dosyaYolu)));
         //Assert.assertTrue(Files.exists(Paths.get(dosyaYolu)));
 
 
-      //  String dosyaYolu = "C:\\Users\\Lenovo\\OneDrive\\Masaüstü\\text.txt";
-        //System.out.println(Files.exists(Paths.get(dosyaYolu)));
-     //   Assert.assertTrue(Files.exists(Paths.get(dosyaYolu)));
+      String dosyaYolu = "C:\\Users\\zeynepsümeyye\\OneDrive\\Masaüstü\\test.txt";
+      System.out.println(Files.exists(Paths.get(dosyaYolu)));
+      Assert.assertTrue(Files.exists(Paths.get(dosyaYolu)));
+
+
         /*
         Bir web sitesinden indirdiğimiz yada windows içinde oluşturduğumuz dosyanın indiğini yada orda olduğunu
         test edebilmem için o dosyanın üzerine shift tuşuna basılı olarak sağ klik yapıp dosyanın yolunu kopyalayıp
